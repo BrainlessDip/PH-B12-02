@@ -177,6 +177,7 @@ ul li a {
   grid-row-gap: 28px;
   max-width: 1240px;
   margin: 0 auto;
+  margin-bottom: 120px;
 }
 .deals-description {
   font-size: 22px;
@@ -188,7 +189,6 @@ ul li a {
 .deals-card-bloom {
   grid-area: 1 / 1 / 2 / 2;
   font-family: "Noto Serif";
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -202,7 +202,6 @@ ul li a {
 .deals-card-ana {
   grid-area: 2 / 1 / 3 / 2;
   font-family: "Noto Serif";
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -218,7 +217,6 @@ ul li a {
   grid-area: 1 / 2 / 3 / 3;
   grid-column: span 2;
   font-family: "Noto Serif";
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -243,6 +241,37 @@ ul li a {
 .deals-card-link {
   text-decoration: underline;
   color: white;
+}
+
+.join {
+  text-align: center;
+  font-family: "Noto Serif";
+  padding-top: 130px;
+  padding-bottom: 130px;
+  width: 100%;
+  color: white;
+  background-image: linear-gradient(#07334f66),
+    url("./assets/news-letter-bg.png");
+  background-position: center;
+  background-size: cover;
+}
+.join div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.join-title {
+  font-family: "Noto Serif";
+  font-size: 50px;
+  color: #ffffff;
+}
+.join input[type="email"] {
+  font-family: "Inter";
+  color: #00000080;
+  padding: 8px 20px 8px 20px;
+  height: 32px;
+  width: 644px;
+  border: none;
 }
 @media screen and (max-width: 576px) {
   #home,
@@ -341,13 +370,20 @@ ul li a {
 
   .deals-card-zabo .deals-card-title {
     margin-top: 64px;
-  font-size: 20px;
-}
-.deals-card-zabo .deals-card-link {
-  font-size: 16px;
-  margin-bottom: 54px;
-}
+    font-size: 20px;
+  }
+  .deals-card-zabo .deals-card-link {
+    font-size: 16px;
+    margin-bottom: 54px;
+  }
   .lastest-deals .deals-description {
     margin-bottom: 80px;
+  }
+  .join-title {
+    font-size: 25px;
+  }
+  .join input[type="email"] {
+    width: 170px;
+    padding: 8px 20px 8px 20px;
   }
 }
