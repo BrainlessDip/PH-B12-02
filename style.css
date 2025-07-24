@@ -273,6 +273,32 @@ ul li a {
   width: 644px;
   border: none;
 }
+
+.footer-box {
+  padding: 50px 160px 50px 160px;
+  display: flex;
+  gap: 110px;
+}
+.footer-box a {
+  color: rgb(107, 114, 128);
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+}
+.link-box ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 32px;
+}
+.social-box {
+  display: flex;
+  gap: 32px;
+}
+.social-box img {
+  width: 36px;
+  height: 36px;
+}
 @media screen and (max-width: 576px) {
   #home,
   #shop,
@@ -385,5 +411,14 @@ ul li a {
   .join input[type="email"] {
     width: 170px;
     padding: 8px 20px 8px 20px;
+  }
+  .footer-box .deals-description {
+    margin-bottom: 1px;
+  }
+  .footer-box {
+    flex-direction: column;
+     padding: 20px;
+     gap: 15px;
+     margin-bottom: 50px;
   }
 }
