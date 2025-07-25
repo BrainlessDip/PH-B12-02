@@ -198,6 +198,8 @@ ul li a {
   border-radius: 10px;
   background-image: linear-gradient(#00000066), url("./assets/deal-bloom.png");
   color: white;
+  background-position: center;
+  background-size: cover;
 }
 .deals-card-ana {
   grid-area: 2 / 1 / 3 / 2;
@@ -211,6 +213,8 @@ ul li a {
   border-radius: 10px;
   background-image: linear-gradient(#00000066), url("./assets/deal-ana.png");
   color: white;
+  background-position: center;
+  background-size: cover;
 }
 
 .deals-card-zabo {
@@ -226,6 +230,8 @@ ul li a {
   border-radius: 10px;
   background-image: linear-gradient(#00000066), url("./assets/deal-zabo.png");
   color: white;
+  background-position: center;
+  background-size: cover;
 }
 
 .deals-card-title {
@@ -384,13 +390,13 @@ ul li a {
     grid-template-columns: 1fr;
     grid-row-gap: 20px;
     margin-top: -43px;
-    margin-left: 30px;
     margin-bottom: 130px;
   }
 
-  .deals-card-zabo {
+  .deals-card-zabo, .deals-card-bloom, .deals-card-ana {
     grid-area: auto;
     grid-column: auto;
+    margin: 0 auto;
     width: 91.5%;
   }
 
