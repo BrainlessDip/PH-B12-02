@@ -361,8 +361,8 @@ ul li a {
     font-size: 16px;
     margin-top: 55px;
   }
-  .btn-primary {
-    padding: 16px 45px;
+  .plants-card .btn-primary {
+    padding: 16px 30px;
   }
   .trusted-badge {
     display: none;
